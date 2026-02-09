@@ -106,3 +106,5 @@ print(confusion_matrix(y_test, y_pred_logistic))
 # Save the best model
 with open("best_logistic_model.pkl", "wb") as f:
     pickle.dump(best_logistic_model, f)
+    
+# Can load the already saved model and predict without training
